@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: darkviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    opacity: 0.75;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.display-container{
+    position: relative;
+    border-radius: 0.5rem;
+    border: 0.35 solid black;
+    margin: 1rem 0;
+    padding-top: 0.35rem;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+
+.container{
+    background-color: fuchsia;
+    width: 90%;
+    max-width: 450px;
+
+ 
+}
